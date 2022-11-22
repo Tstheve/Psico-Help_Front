@@ -1,0 +1,94 @@
+<%- include('./partials/_head') %>
+    <header>
+        <nav>
+            <a href="/registro">inicio</a>
+            <a href="/test">Test</a>
+            <a href="/ubicacion">Localizacion</a>
+            <a href="/mensajes">Chat</a>
+            <a href="/libros">Libros</a>
+            <a href="/login" >Iniciar sesión</a>
+            <a href="/psicologo">DatosPsicologo</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Por muy alta que sea una montaña</h1>
+            <h2>siempre hay un camino hacia la cima</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nunca pares, nunca te conformes, hasta que lo bueno sea mejor y lo mejor excelente</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>El compromiso</h3>
+                    <p>Da siempre lo mejor que tienes. Lo que plantes ahora, lo cosecharás más tarde</p>
+                    <h3><span>2</span>Las personas</h3>
+                    <p>La tragedia no es no alcanzar tus objetivos, la tragedia es no tener objetivos que alcanzar</p>
+                    <h3><span>3</span>La privacidad</h3>
+                    <p>El 80% del éxito se basa simplemente en insistir</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/hospital.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/puestos.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>                                      
+                    <div class="imagen-port">
+                        <img src="img/clinicas_psico.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION DE COMENTARIOS-->
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/test.png" alt="">
+                        <h3>Test</h3>
+                        <p>Permite medir la afectación psico-afectiva de os usuarios</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/localizacion.png" alt="">
+                        <h3>Localización</h3>
+                        <p>Ofrece ubicación de los centros de ayuda</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/chat.png" alt="">
+                        <h3>Chat</h3>
+                        <p>Lugar social en el cual puede comunicarse de manera libre o privada</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/Libros.png" alt="">
+                        <h3>Libros</h3>
+                        <p>Ofrece libros con información que ayude a mejorar el autoestima </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<%- include('./partials/_footer') %>

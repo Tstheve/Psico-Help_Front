@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+    <header>
+        <h1>TEST</h1>
+        <P>TEST PSICOLOGICO</P>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3> 1- Sentirse desanimado/a, deprimido/a, o sin esperanza</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="repuesta(0,this)"> si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="repuesta(0,this)"> no
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="repuesta(0,this)"> poco
+            </label>
+        </section>
+        <section id="p1">
+            <h3> 2- Tener poco interés o placer en hacer las cosas</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="repuesta(1,this)"> si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="repuesta(1,this)"> no
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="repuesta(1,this)"> poco
+            </label>
+        </section>
+        <section id="p2">
+            <h3> 3-  Sentir falta de amor propio - o que sea un fracaso o que decepcionara a si mismo/a su familia</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="repuesta(2,this)"> si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="repuesta(2,this)"> no
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="repuesta(2,this)"> poco
+            </label>
+        </section>
+        <section id="p3">
+            <h3> 4- Se la han ocurrido pensamientos de que sería mejor estar muerto/a o de que haría daño de alguna manera</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="repuesta(3,this)"> si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="repuesta(3,this)"> no
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="repuesta(3,this)"> poco
+            </label>
+        </section>
+        <section id="p4">
+            <h3> 5- Tener dificultad para concentrarse </h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="repuesta(4,this)"> si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="repuesta(4,this)"> no
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="repuesta(4,this)"> poco
+            </label>
+            <a href="../index.html">« Volver a la pagina principal</a>
+        </section>
+
+        <button onclick="corregir()">Corregir</button>
+        <h2>cantidad acertadas: <span id="resultado"></span></h2>     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
